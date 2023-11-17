@@ -2051,6 +2051,7 @@ Schedule CSS
 }
 
 .tab {
+  margin-top: 100px;
   width: 100%;
   -webkit-box-shadow: 0 0 10px 0 rgba(137, 173, 255, 0.35);
           box-shadow: 0 0 10px 0 rgba(137, 173, 255, 0.35);
@@ -5673,7 +5674,8 @@ Schedule Area CSS
 }
 
 .m-schedule-list-tabs .tab-content .tab-pane .schedule-info img {
-  max-width: 70px;
+  max-width: 60px;
+  padding: 5px;
 }
 
 .m-schedule-list-tabs .tab-content .tab-pane .schedule-info .title {
@@ -5825,6 +5827,12 @@ Sponsors Area CSS
 }
 
 .m-partner-card {
+  margin-bottom: 25px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.m-partner-card-wu{
   margin-bottom: 25px;
   text-align: center;
   -webkit-transition: 0.5s;
