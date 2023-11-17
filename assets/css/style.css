@@ -3040,7 +3040,12 @@ Pricing CSS
 /*================================================
 Partner CSS
 =================================================*/
+.poster-are{
+  margin-bottom: 50px;
+}
+
 .partner-area {
+  margin-top: 100px;
   overflow: hidden;
 }
 
