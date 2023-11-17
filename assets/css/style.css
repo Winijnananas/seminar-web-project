@@ -4670,6 +4670,7 @@ Contact Us CSS
 Footer CSS
 =================================================*/
 .footer-area {
+  margin-top: 50px;
   background-color: #0d1028;
   padding-top: 120px;
 }
@@ -5123,7 +5124,7 @@ Marketing Banner Area CSS
 
 .marketing-banner-content h1 b {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 35px;
 }
 /* เเก้ไขstyleIndex 8 */
 .b.index8{
