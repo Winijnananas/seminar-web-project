@@ -1943,9 +1943,9 @@ Speakers CSS
 }
 
 .single-speakers-box .speakers-content p{
-  color: black;
-  font-weight: 400;
-  font-size: medium;
+  color: rgb(104, 104, 253);
+  font-weight: bold;
+  font-size: 20px;
 
 }
 
@@ -1956,6 +1956,7 @@ Speakers CSS
   transition: 0.5s;
   font-family: "Oswald", sans-serif;
   color: blue;
+  font-weight: bold;
 }
 
 .single-speakers-box .speakers-content .social {
