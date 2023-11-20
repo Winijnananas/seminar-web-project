@@ -477,7 +477,7 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav {
@@ -519,11 +519,11 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -562,7 +562,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -579,7 +579,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -589,7 +589,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover ul {
@@ -1704,7 +1704,7 @@ Speakers CSS
 }
 
 .single-speakers .speakers-content h3 a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .single-speakers .speakers-content h3 a:hover, .single-speakers .speakers-content h3 a:focus {
@@ -1810,13 +1810,13 @@ Speakers CSS
 }
 
 .elkevent-single-speakers .speakers-content h3 a:hover, .elkevent-single-speakers .speakers-content h3 a:focus {
-  color: #FF2D55;
+  color: orange;
 }
 
 .elkevent-single-speakers .speakers-content span {
   display: block;
   margin-top: 8px;
-  color: #FF2D55;
+  color: orange;
   font-family: "Oswald", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1925,7 +1925,7 @@ Speakers CSS
   width: 0;
   height: 20px;
   color: #ffffff;
-  background: #FF2D55;
+  background: rgb(69, 69, 248);
   position: absolute;
   top: -20px;
   right: 0;
@@ -1942,13 +1942,20 @@ Speakers CSS
   color: #0d1028;
 }
 
+.single-speakers-box .speakers-content p{
+  color: black;
+  font-weight: 400;
+  font-size: medium;
+
+}
+
 .single-speakers-box .speakers-content span {
   display: block;
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Oswald", sans-serif;
-  color: #FF2D55;
+  color: blue;
 }
 
 .single-speakers-box .speakers-content .social {
@@ -2020,7 +2027,7 @@ Speakers CSS
 }
 
 .single-speakers-box:hover .speakers-content {
-  background: #FF2D55;
+  background: orange;
 }
 
 .single-speakers-box:hover .speakers-content::before {
@@ -2035,6 +2042,10 @@ Speakers CSS
 .single-speakers-box:hover .speakers-content h3 a, .single-speakers-box:hover .speakers-content span {
   color: #ffffff;
 }
+.single-speakers-box:hover .speakers-content h3 a, .single-speakers-box:hover .speakers-content p {
+  color: #ffffff;
+}
+
 
 /*================================================
 Schedule CSS
@@ -3512,7 +3523,7 @@ Page Title CSS
 .page-title-area ul li {
   display: inline-block;
   position: relative;
-  color: #FF2D55;
+  color:orange;
   font-size: 17px;
   margin: 0 8px;
 }
@@ -4946,7 +4957,7 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar {
-  background-color: #ffffff;
+  background-color: #0d1028;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 25px;
@@ -4958,15 +4969,15 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a {
-  color: #0d1028;
+  color: #ffff;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
@@ -4974,7 +4985,7 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
@@ -4982,11 +4993,11 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky {
@@ -5008,11 +5019,11 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a {
@@ -5020,7 +5031,7 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
@@ -5028,20 +5039,20 @@ Back To Top CSS
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: orange;
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: orange;
   border-bottom: 1px solid #ffffff;
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: orange;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -5051,7 +5062,7 @@ Back To Top CSS
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
   border-bottom: none;
 }
 
@@ -5060,12 +5071,12 @@ Back To Top CSS
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: orange;
   border-bottom: none;
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: orange;
   border-bottom: none;
 }
 
@@ -5106,7 +5117,7 @@ Marketing Banner Area CSS
 }
 
 .marketing-banner-content span {
-  color: #FF2D55;
+  color: orange;
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
