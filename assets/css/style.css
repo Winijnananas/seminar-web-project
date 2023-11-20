@@ -121,7 +121,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  background: orange;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -2205,8 +2205,11 @@ Schedule CSS
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
-.tab_content .tabs_item .accordion .accordion-item .accordion-title .author img:nth-child(1) {
+.tab_content .tabs_item .accordion .accordion-item .accordion-title .author img {
+  border-radius: 50%;
+  border: 0.5px solid rgb(238, 154, 75);
+}
+/* .tab_content .tabs_item .accordion .accordion-item .accordion-title .author img:nth-child(1) {
   -webkit-clip-path: polygon(50% 0%, 38.11% 6.7%, 24.99% 6.72%, 18.06% 18.44%, 6.7% 25%, 6.56% 38.64%, 0% 50%, 6.7% 61.89%, 6.7% 75%, 18.44% 81.94%, 25% 93.3%, 38.64% 93.44%, 50% 100%, 61.88% 93.3%, 75% 93.3%, 81.94% 81.56%, 93.3% 74.9%, 93.44% 61.36%, 100% 50%, 93.3% 38.11%, 93.3% 25%, 81.56% 18.06%, 74.96% 6.7%, 61.36% 6.56%, 50% 0%);
           clip-path: polygon(50% 0%, 38.11% 6.7%, 24.99% 6.72%, 18.06% 18.44%, 6.7% 25%, 6.56% 38.64%, 0% 50%, 6.7% 61.89%, 6.7% 75%, 18.44% 81.94%, 25% 93.3%, 38.64% 93.44%, 50% 100%, 61.88% 93.3%, 75% 93.3%, 81.94% 81.56%, 93.3% 74.9%, 93.44% 61.36%, 100% 50%, 93.3% 38.11%, 93.3% 25%, 81.56% 18.06%, 74.96% 6.7%, 61.36% 6.56%, 50% 0%);
 }
@@ -2253,7 +2256,7 @@ Schedule CSS
 .tab_content .tabs_item .accordion .accordion-item .accordion-title .author img:nth-child(10) {
   -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
           clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-}
+} */
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-title .author-multi {
   overflow: hidden;
